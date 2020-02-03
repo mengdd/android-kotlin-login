@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~  Copyright 2019, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +16,10 @@
 
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
     <ListPreference
-            app:key="@string/preference_fact_type_key"
-            app:title="@string/settings_fact_type_title"
-            app:entries="@array/fact_type"
-            app:entryValues="@array/fact_type"
-            app:defaultValue="@string/fact_type_android"
-            app:useSimpleSummaryProvider="true"/>
+        app:defaultValue="@string/fact_type_android"
+        app:entries="@array/fact_type"
+        app:entryValues="@array/fact_type"
+        app:key="@string/preference_fact_type_key"
+        app:title="@string/settings_fact_type_title"
+        app:useSimpleSummaryProvider="true" />
 </PreferenceScreen>
